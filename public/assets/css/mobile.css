@@ -1,0 +1,77 @@
+@media screen and (max-width: 992px){
+    button{
+        padding: 7px 12px;
+    }
+    .detail-parse{
+        padding: 0px 15px;
+    }
+}
+@media screen and (max-width: 768px){
+    .description-detail{
+        order: 3;
+        grid-column: span 1;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .parse-info-cnt{
+        margin-top: 20px;
+    }
+    .text_h2{
+        font-size: 16px;
+    }
+    .home-select>div{
+        margin-bottom: 20px;
+    }
+    .parse-call{
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .parse-call{
+        margin-top: 20px;
+    }
+    .parse-name h3{
+        font-size: 16px;
+    }
+    .parse-adress{
+        font-size: 10px;
+    }
+    button{
+        padding: 3px 17px;
+    }
+    button{
+        padding: 3px 17px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .detail-parse>.grid-detail{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .detail-parse>.grid-detail>.parse-img-cnt{
+        max-width: 100%;
+        width: 100%;
+        order: 2;
+    }
+    .detail-parse>.grid-detail>.parse-title-cnt{
+        max-width: 100%;
+        width: 100%;
+        order: 1;
+        grid-column: span 2;
+    }
+    .detail-parse>.grid-detail>.parse-info-cnt{
+        max-width: 100%;
+        width: 100%;
+        order: 3;
+        grid-column: span 2;
+    }
+
+    .address-cnt-detail{
+        display: block;
+    }
+    .main-head-text{
+        font-size: 22px;
+    }
+}
